@@ -9,26 +9,32 @@ An introduction of the data and a description of the trends/books/items you are 
 
 ### Summary Information
 
-Write a summary paragraph of findings that includes the 5 values calculated from your summary information R script
-
-These will likely be calculated using your DPLYR skills, answering questions such as:
-
-- What is the average number of checkouts for each item?
-- What is the month or year with the most/least checkouts for a book that you're interested in?
-- What is the month or year with the most/least checkouts for ebooks?
-- How has the number of print book checkouts changed over time?
-
-Feel free to calculate and report values that you find relevant.
+I decided to do the 2022-2023 all checkout file. I am not really into books so i calculated basic general values regarding ebooks, since they are growing in popularity. I found out that the year 2023 has more ebook checkouts than 2022, as the most popular subject being Fiction and literature. Along with that the most checked out book was called Headphones. The average ranges greatly per book, but since this is all dataset, most of the books were sometimes only checked out once on average. I also created another table that seeks the checkouts per month.
 
 ### The Dataset
 
 - Who collected/published the data?  
+
+The seattle Public Library collected and published the data.
+
 - What are the parameters of the data (dates, number of checkouts, kinds of books, etc.)?
+
+The parameters are all the books that were checked out between the year 202-23. It consists of number of checkouts, the year, the material of the book, title, publisher/ publication year, and the genre of the books.
+
 - How was the data collected or generated?  
+
+the data was collected by tracking everyone who checkouted a book between those years
+
 - Why was the data collected?  
+
+I believe that the data was collected to see trends on how digital and physcial books were doing and seeing what people liked more or less of something, so they can understand the trends that are happening during the years. Seeing if it correlated to certain events throughout time.
+
 - What, if any, ethical questions do you need to consider when working with this data?  
+I dont really think there are an ethical questions as this is very braod data, it does not include who or what made the checkout, just simply keeping track of the books-- not the person.
+
 - What are possible limitations or problems with this data?   (at least 200 words)
 
+There are some limitations with the data that are not realized until you start digging. There is no way to tell if the people that checked out the book even read or enjoyed the book. It simple tells you that they checked it out. There is also no given time on how long the books are out, which I think can be great information to know how long it takes someone to potentially read certain books. Another issue is that this data is only specific to the Seattle public library. There is no data regarding other library districts and only focuses on the seattle area, so it is not a good sample if you are trying to find out more information on what is actually popular.
 
 ### First Trends Over Time Chart
 
