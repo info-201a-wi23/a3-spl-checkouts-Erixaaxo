@@ -13,5 +13,3 @@ ggplot(data = phy_dig) +
                  sep = "\n", "Month Number:", CheckoutMonth))) +
   labs(title = "Physical & Digital Checkout / Month", x = "Month", y = "# of Checkouts")
 
-ggplotly(line_plot, tooltip = c("text"))
-
